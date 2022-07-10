@@ -35,8 +35,8 @@ random_seed = 10
 #%% preparation 
 utils.read_table('tile_table_1row_4col.txt',utils.tile_dict_display)
 utils.read_table('tile_table_1row_4col_120_150.txt',utils.tile_dict_tran)
-utils.read_size_table('../RTP/id2size.txt')
-utils.read_ID_table('../id2pose.txt')
+utils.read_size_table('./id2size.txt')
+utils.read_ID_table('./id2pose.txt')
 random.seed(random_seed)
 np.random.seed(random_seed)
 
