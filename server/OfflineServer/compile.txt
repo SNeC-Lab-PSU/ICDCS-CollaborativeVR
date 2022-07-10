@@ -1,0 +1,9 @@
+javac JavaServer.java FuncThread.java TranThread.java PredictThread.java Stats.java
+
+javac JavaServer.java FuncThread.java TranThread.java PredictThread.java Stats.java ARModel.java -classpath Jama-1.0.3.jar
+
+java -classpath ./Jama-1.0.3.jar;. JavaServer
+
+linux:
+javac -cp .:./Jama-1.0.3.jar JavaServer.java FuncThread.java TranThread.java PredictThread.java Stats.java ARModel.java 
+java -cp .:./Jama-1.0.3.jar JavaServer
