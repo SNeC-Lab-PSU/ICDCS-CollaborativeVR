@@ -18,3 +18,6 @@ This is the open source implementation of our ICDCS 2022 paper "Enhancing Qualit
 `simulation`: Simulation code of the paper written by Python.
 
 `offlineProcess`: Offline processing related code. 
+
+# Acknowledgement
+The main contributor of this repository is [Jiangong Chen](https://www.personal.psu.edu/jjc7191/). For questions on this repository or the related paper, please contact Jiangong Chen at jiangong@psu.edu.
